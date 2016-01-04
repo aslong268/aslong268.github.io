@@ -2,11 +2,38 @@ body {
   font-family: 'times new roman', arial, sans-serif;
   font-weight: 300;
   color: yellow;
-  background-image: url(walter.jpg);
+  background-image: url(background.jpg);
   background-repeat: repeat;
-  text-align: center
+  text-align: center;
+  /*border-color: white;
+  border-width: 10px;*/
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+h1 {
+	color: red;
+	/*comment*/
+}
+
+#summary {
+	color: purple;
+}
+
+img {
+	border-color: white;
+  	border-width: 10px;
+  	border-style: double dashed;
+}
+
+/*img {
+	height:  100px;
+	width: 10px;
+}*/
+
+}
+
+
+
 }
