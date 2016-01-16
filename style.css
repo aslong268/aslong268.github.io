@@ -1,56 +1,37 @@
-body {
-  font-family: 'arila narrow', arial, sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  background-image: url(background.jpg);
-  background-repeat: repeat;
-  color: white;
-}
-
-#picture { 
+#jumbo {
   border-style: solid;
   border-width: 10px;
   border-radius: 5px;
   border-color: rgb(144,144,144);
-  height: 500px;
-  position: relative;
-  left: 250px;  		
- }
+  height: 700px;
+  /*position: relative;*/
+  /*left: 250px;*/
+}
 
 h1 {
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	font-size: 80px; 
+    font-family: 'Caveat Brush', cursive;
+    font-size: 100px;
 }
 
 h2 {
-	font-size: 40px;
-	font-weight: 200;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;f;
+    font-size: 100px;
 }
 
 h3 {
-	font-size: 30px;
-	font-weight: 800;
-	font-style: italic;
+    text-align: center;
+    text-justify: inter-word;
+    font-family: 'Roboto Condensed', sans-serif;
+ 	font-size: 30px;   
 }
 
-h4 {
-	text-decoration: underline;
-	text-transform: uppercase;
-	font-size: 25px;
-	font-weight: 400;
+.navbar-brand {
+	font-weight: bold;
 }
 
-ul {
-	font-size: 20px;
-}
-
-.info {
-	font-size: 20px;
-	letter-spacing: 3px;
-}
-
-#wrapper {
-  width: 1300px;
-  margin: 20px auto 20px auto;
+.jumbotron {
+background-image: url(oceancake.jpg);
+height: 500px;
+width: 1800px;
 }
