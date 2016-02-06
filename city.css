@@ -1,0 +1,13 @@
+.thumbnail > img { 
+  height: 100px;
+}  
+
+h1 {
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 60px;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
