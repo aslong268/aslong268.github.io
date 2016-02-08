@@ -8,6 +8,12 @@
   /*left: 250px;*/
 }
 
+img {
+
+  height: 350px;
+
+}
+
 h1 {
     font-family: 'Caveat Brush', cursive;
     font-size: 100px;
@@ -23,15 +29,15 @@ h3 {
   text-align: center;
 }
 
-h4 {
-    text-align: center;
+p {
+    text-align: left;
     text-justify: inter-word;
     font-family: 'Roboto Condensed', sans-serif;
- 	font-size: 36px;   
+  font-size: 22px;   
 }
 
 .navbar-brand {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .jumbotron {
